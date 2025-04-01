@@ -1,4 +1,4 @@
-// File: C:\Users\Quuee\OneDrive - Enseignement de la Province de Liège\Bureau\Meibo-app\frontend\src\app\(auth)\layout.js
+// File: /Users/jaadouaich/Meibo-app/frontend/src/app/(auth)/layout.js
 import * as entry from '../../../../src/app/(auth)/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
