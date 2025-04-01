@@ -1,4 +1,4 @@
-import { Nunito } from 'next/font/google'
+import { Nunito, Inter } from 'next/font/google'
 import '@/app/global.css'
 
 const nunitoFont = Nunito({
@@ -6,9 +6,14 @@ const nunitoFont = Nunito({
     display: 'swap',
 })
 
+const interFont = Inter({
+    subsets: ['latin'],
+    display: 'swap',
+})
+
 const RootLayout = ({ children }) => {
     return (
-        <html lang="en" className={nunitoFont.className}>
+        <html lang="en" className={interFont.className}>
             <body className="antialiased">{children}</body>
         </html>
     )
