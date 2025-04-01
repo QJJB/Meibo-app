@@ -14,5 +14,4 @@ Route::middleware(['auth:sanctum'])->post('/projects', [ProjectController::class
 Route::middleware(['auth:sanctum'])->put('/projects/{id}', [ProjectController::class, 'update']);
 Route::middleware(['auth:sanctum'])->delete('/projects/{id}', [ProjectController::class, 'delete']);
 // coucou
-
-Route::middleware(['auth:sanctum'])->delete('/projects/{id}', [ProjectController::class, 'delete']);
+//azertyuio
