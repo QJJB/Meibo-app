@@ -95,7 +95,13 @@ cd Meibo
    npm install
    ```
 
-3. Lance le serveur Next.js :
+3. Copie le fichier des variables d'environnement :
+
+   ```sh
+   cp .env.example .env.local
+   ```
+
+4. Lance le serveur Next.js :
 
    ```sh
    npm run dev
