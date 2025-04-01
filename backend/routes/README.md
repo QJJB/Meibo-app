@@ -8,6 +8,10 @@
 | POST              | `/projects`      | `ProjectController@create`         | `auth:sanctum`        | Crée un nouveau projet.                                                        |
 | PUT               | `/projects/{id}` | `ProjectController@update`         | `auth:sanctum`        | Met à jour un projet existant.                                                 |
 | DELETE            | `/projects/{id}` | `ProjectController@delete`         | `auth:sanctum`        | Supprime un projet existant.                                                   |
+| GET             | `/projects/{id}/tasks`  | `TaskController@index`         | `auth:sanctum`        | Récupère toutes les tâches d'un projet spécifique.         |
+| POST            | `/projects/{id}/tasks`  | `TaskController@store`         | `auth:sanctum`        | Crée une nouvelle tâche dans un projet spécifique.        |
+
+
 
 # AUTH.PHP:
 
