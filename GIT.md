@@ -28,6 +28,28 @@ git commit -m "Description des modifications"
 git push origin nom-de-la-branche
 ```
 
+## 4. Récupérer une Branche sur un Dépôt Distant
+
+### Méthode recommandée :
+
+```sh
+# Mettre à jour la liste des branches distantes
+git fetch
+
+# Créer une branche locale et la suivre automatiquement
+git checkout -t origin/nom-de-la-branche
+```
+
+### Autre méthode possible :
+
+```sh
+# Récupérer toutes les branches distantes
+git fetch
+
+# Créer manuellement la branche locale à partir de la branche distante
+git checkout -b nom-de-la-branche origin/nom-de-la-branche
+```
+
 ## 4. Création d'une Pull Request (PR)
 
 1. Aller sur **GitHub/GitLab/Bitbucket**
